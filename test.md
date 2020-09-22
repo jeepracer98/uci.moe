@@ -1,3 +1,5 @@
 # testing header
-> Testing quote
+> Testing quote  
 _testing italics_
+
+{% include 'index.html' %}
