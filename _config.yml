@@ -1,5 +1,5 @@
 title: UCI Anime Community Club
-remote_theme: "murraco/jekyll-theme-minimal-resume"
+theme: jekyll-theme-cayman
 description: Anime Club at UCI
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://uci.moe/" # the base hostname & protocol for your site
