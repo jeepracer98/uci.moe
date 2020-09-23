@@ -41,25 +41,13 @@
         <header>
             <div class='headline'>
                 <div class='container'>
-                    <h1>{{ site.title | page.title  }}</h1>
+                    <h1>{{ site.title | page.title }}</h1>
                 </div>
             </div>
         </header>
         <div class="container">
             <main>
-                <hr id='about'>
-                <section>
-                    {{% include about.md %}}
-                </section>
-                <hr id='events'>
-                <section>
-                    {% include events.md }
-                </section>
-                <hr id='contact'>
-                <section>
-                    {% include contact.md %}
-                </section>
-                <hr>
+                {{ content }}
             </main>
             <footer>
                 <div class='row'>
