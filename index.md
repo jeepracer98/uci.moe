@@ -1,5 +1,4 @@
-# About Us
-We are the Anime Community Club at UCI.
-
-# Contact
-Discord, Facebook, Email
+---
+title: UCI ACC
+---
+This won't show up, everything is in the _includes folder.
