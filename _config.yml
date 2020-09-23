@@ -1,5 +1,2 @@
-title: UCI Anime Community Club
-theme: jekyll-theme-cayman
-description: Anime Club at UCI
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://uci.moe/" # the base hostname & protocol for your site
+theme_remote: mushishi78/one-page-wonder-jekyll
+title: Anime Community Club at UCI
