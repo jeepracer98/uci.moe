@@ -54,7 +54,7 @@ a:hover {
 }
 
 abbr[title] {
-	border-bottom: 3px dotted
+	border-bottom: 1px dotted
 }
 
 b,
@@ -192,7 +192,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-	border: 3px solid #c0c0c0;
+	border: 1px solid #c0c0c0;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em
 }
@@ -248,7 +248,7 @@ th {
 	}
 	pre,
 	blockquote {
-		border: 3px solid #999;
+		border: 1px solid #999;
 		page-break-inside: avoid
 	}
 	thead {
@@ -283,7 +283,7 @@ th {
 		border-top-color: #000 !important
 	}
 	.label {
-		border: 3px solid #000
+		border: 1px solid #000
 	}
 	.table {
 		border-collapse: collapse !important
@@ -294,7 +294,7 @@ th {
 	}
 	.table-bordered th,
 	.table-bordered td {
-		border: 3px solid #ddd !important
+		border: 1px solid #ddd !important
 	}
 }
 
@@ -306,7 +306,7 @@ th {
 
 .glyphicon {
 	position: relative;
-	top: 3px;
+	top: 1px;
 	display: inline-block;
 	font-family: 'Glyphicons Halflings';
 	font-style: normal;
@@ -1440,7 +1440,7 @@ main img {
 	padding: 4px;
 	line-height: 1.42857;
 	background-color: #fff;
-	border: 3px solid #ddd;
+	border: 1px solid #ddd;
 	border-radius: 4px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1459,14 +1459,14 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 0;
-	border-top: 3px solid #eee
+	border-top: 1px solid #eee
 }
 
 .sr-only {
 	position: absolute;
-	width: 3px;
-	height: 3px;
-	margin: -3px;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
 	padding: 0;
 	overflow: hidden;
 	clip: rect(0, 0, 0, 0);
@@ -1627,7 +1627,7 @@ p {
 
 @media (min-width: 768px) {
 	.lead {
-		font-size: 23px
+		font-size: 21px
 	}
 }
 
@@ -1767,7 +1767,7 @@ a.bg-danger:hover {
 .page-header {
 	padding-bottom: 9px;
 	margin: 40px 0 20px;
-	border-bottom: 3px solid #eee
+	border-bottom: 1px solid #eee
 }
 
 ul,
@@ -1846,7 +1846,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
 	cursor: help;
-	border-bottom: 3px dotted #777
+	border-bottom: 1px dotted #777
 }
 
 .initialism {
@@ -1935,7 +1935,7 @@ kbd {
 	color: #fff;
 	background-color: #333;
 	border-radius: 3px;
-	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.25)
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25)
 }
 
 kbd kbd {
@@ -1955,7 +1955,7 @@ pre {
 	word-wrap: break-word;
 	color: #333;
 	background-color: #f5f5f5;
-	border: 3px solid #ccc;
+	border: 1px solid #ccc;
 	border-radius: 4px
 }
 
@@ -2089,7 +2089,7 @@ pre code {
 .col-md-12,
 .col-lg-12 {
 	position: relative;
-	min-height: 3px;
+	min-height: 1px;
 	padding-left: 15px;
 	padding-right: 15px
 }
@@ -2853,7 +2853,7 @@ th {
 	padding: 8px;
 	line-height: 1.42857;
 	vertical-align: top;
-	border-top: 3px solid #ddd
+	border-top: 1px solid #ddd
 }
 
 .table>thead>tr>th {
@@ -2888,7 +2888,7 @@ th {
 }
 
 .table-bordered {
-	border: 3px solid #ddd
+	border: 1px solid #ddd
 }
 
 .table-bordered>thead>tr>th,
@@ -2897,7 +2897,7 @@ th {
 .table-bordered>tbody>tr>td,
 .table-bordered>tfoot>tr>th,
 .table-bordered>tfoot>tr>td {
-	border: 3px solid #ddd
+	border: 1px solid #ddd
 }
 
 .table-bordered>thead>tr>th,
@@ -3052,7 +3052,7 @@ table th[class*="col-"] {
 		margin-bottom: 15px;
 		overflow-y: hidden;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
-		border: 3px solid #ddd
+		border: 1px solid #ddd
 	}
 	.table-responsive>.table {
 		margin-bottom: 0
@@ -3104,11 +3104,11 @@ legend {
 	width: 100%;
 	padding: 0;
 	margin-bottom: 20px;
-	font-size: 23px;
+	font-size: 21px;
 	line-height: inherit;
 	color: #333;
 	border: 0;
-	border-bottom: 3px solid #e5e5e5
+	border-bottom: 1px solid #e5e5e5
 }
 
 label {
@@ -3127,7 +3127,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
 	margin: 4px 0 0;
-	margin-top: 3px \9;
+	margin-top: 1px \9;
 	line-height: normal
 }
 
@@ -3171,10 +3171,10 @@ output {
 	color: #555;
 	background-color: #fff;
 	background-image: none;
-	border: 3px solid #ccc;
+	border: 1px solid #ccc;
 	border-radius: 4px;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	-o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s
@@ -3183,8 +3183,8 @@ output {
 .form-control:focus {
 	border-color: #66afe9;
 	outline: 0;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
 }
 
 .form-control::-moz-placeholder {
@@ -3533,14 +3533,14 @@ select[multiple].input-lg,
 
 .has-success .form-control {
 	border-color: #3c763d;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
 }
 
 .has-success .form-control:focus {
 	border-color: #2b542c;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #67b168
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168
 }
 
 .has-success .input-group-addon {
@@ -3568,14 +3568,14 @@ select[multiple].input-lg,
 
 .has-warning .form-control {
 	border-color: #8a6d3b;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
 }
 
 .has-warning .form-control:focus {
 	border-color: #66512c;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b
 }
 
 .has-warning .input-group-addon {
@@ -3603,14 +3603,14 @@ select[multiple].input-lg,
 
 .has-error .form-control {
 	border-color: #a94442;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
 }
 
 .has-error .form-control:focus {
 	border-color: #843534;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483
 }
 
 .has-error .input-group-addon {
@@ -3751,7 +3751,7 @@ select[multiple].input-lg,
 	touch-action: manipulation;
 	cursor: pointer;
 	background-image: none;
-	border: 3px solid transparent;
+	border: 1px solid transparent;
 	white-space: nowrap;
 	padding: 6px 12px;
 	font-size: 14px;
@@ -4156,7 +4156,7 @@ fieldset[disabled] .btn-link:focus {
 
 .btn-xs,
 .btn-group-xs>.btn {
-	padding: 3px 5px;
+	padding: 1px 5px;
 	font-size: 12px;
 	line-height: 1.5;
 	border-radius: 3px
@@ -4254,8 +4254,8 @@ nav tbody.in#menu {
 	font-size: 14px;
 	text-align: left;
 	background-color: #fff;
-	border: 3px solid #ccc;
-	border: 3px solid rgba(0, 0, 0, 0.15);
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -4268,7 +4268,7 @@ nav tbody.in#menu {
 }
 
 .dropdown-menu .divider {
-	height: 3px;
+	height: 1px;
 	margin: 9px 0;
 	overflow: hidden;
 	background-color: #e5e5e5
@@ -4409,7 +4409,7 @@ nav tbody.in#menu {
 .btn-group .btn+.btn-group,
 .btn-group .btn-group+.btn,
 .btn-group .btn-group+.btn-group {
-	margin-left: -3px
+	margin-left: -1px
 }
 
 .btn-toolbar {
@@ -4543,7 +4543,7 @@ nav tbody.in#menu {
 .btn-group-vertical>.btn+.btn-group,
 .btn-group-vertical>.btn-group+.btn,
 .btn-group-vertical>.btn-group+.btn-group {
-	margin-top: -3px;
+	margin-top: -1px;
 	margin-left: 0
 }
 
@@ -4656,7 +4656,7 @@ nav tbody.in#menu {
 	color: #555;
 	text-align: center;
 	background-color: #eee;
-	border: 3px solid #ccc;
+	border: 1px solid #ccc;
 	border-radius: 4px
 }
 
@@ -4722,7 +4722,7 @@ nav tbody.in#menu {
 }
 
 .input-group-btn>.btn+.btn {
-	margin-left: -3px
+	margin-left: -1px
 }
 
 .input-group-btn>.btn:hover,
@@ -4733,12 +4733,12 @@ nav tbody.in#menu {
 
 .input-group-btn:first-child>.btn,
 .input-group-btn:first-child>.btn-group {
-	margin-right: -3px
+	margin-right: -1px
 }
 
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
-	margin-left: -3px
+	margin-left: -1px
 }
 
 .nav,
@@ -4809,7 +4809,7 @@ nav ul .open>a:focus {
 
 .nav .nav-divider,
 nav ul .nav-divider {
-	height: 3px;
+	height: 1px;
 	margin: 9px 0;
 	overflow: hidden;
 	background-color: #e5e5e5
@@ -4821,18 +4821,18 @@ nav ul>li>a>img {
 }
 
 .nav-tabs {
-	border-bottom: 3px solid #ddd
+	border-bottom: 1px solid #ddd
 }
 
 .nav-tabs>li {
 	float: left;
-	margin-bottom: -3px
+	margin-bottom: -1px
 }
 
 .nav-tabs>li>a {
 	margin-right: 2px;
 	line-height: 1.42857;
-	border: 3px solid transparent;
+	border: 1px solid transparent;
 	border-radius: 4px 4px 0 0
 }
 
@@ -4845,7 +4845,7 @@ nav ul>li>a>img {
 .nav-tabs>li.active>a:focus {
 	color: #555;
 	background-color: #fff;
-	border: 3px solid #ddd;
+	border: 1px solid #ddd;
 	border-bottom-color: transparent;
 	cursor: default
 }
@@ -4928,13 +4928,13 @@ nav ul>li>a>img {
 .nav-tabs.nav-justified>.active>a:hover,
 .nav-tabs-justified>.active>a:focus,
 .nav-tabs.nav-justified>.active>a:focus {
-	border: 3px solid #ddd
+	border: 1px solid #ddd
 }
 
 @media (min-width: 768px) {
 	.nav-tabs-justified>li>a,
 	.nav-tabs.nav-justified>li>a {
-		border-bottom: 3px solid #ddd;
+		border-bottom: 1px solid #ddd;
 		border-radius: 4px 4px 0 0
 	}
 	.nav-tabs-justified>.active>a,
@@ -4956,7 +4956,7 @@ nav ul>li>a>img {
 }
 
 .nav-tabs .dropdown-menu {
-	margin-top: -3px;
+	margin-top: -1px;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0
 }
@@ -4966,7 +4966,7 @@ nav {
 	position: relative;
 	min-height: 50px;
 	margin-bottom: 20px;
-	border: 3px solid transparent
+	border: 1px solid transparent
 }
 
 .navbar:before,
@@ -5010,8 +5010,8 @@ nav #menu {
 	overflow-x: visible;
 	padding-right: 15px;
 	padding-left: 15px;
-	border-top: 3px solid transparent;
-	box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.1);
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-overflow-scrolling: touch
 }
 
@@ -5109,7 +5109,7 @@ nav .container-fluid>#menu {
 
 .navbar-static-top {
 	z-index: 1000;
-	border-width: 0 0 3px
+	border-width: 0 0 1px
 }
 
 @media (min-width: 768px) {
@@ -5138,13 +5138,13 @@ nav,
 .navbar-fixed-top,
 nav {
 	top: 0;
-	border-width: 0 0 3px
+	border-width: 0 0 1px
 }
 
 .navbar-fixed-bottom {
 	bottom: 0;
 	margin-bottom: 0;
-	border-width: 3px 0 0
+	border-width: 1px 0 0
 }
 
 .navbar-brand {
@@ -5183,7 +5183,7 @@ nav button {
 	margin-bottom: 8px;
 	background-color: transparent;
 	background-image: none;
-	border: 3px solid transparent;
+	border: 1px solid transparent;
 	border-radius: 4px
 }
 
@@ -5197,7 +5197,7 @@ nav button .icon-bar {
 	display: block;
 	width: 22px;
 	height: 2px;
-	border-radius: 3px
+	border-radius: 1px
 }
 
 .navbar-toggle .icon-bar+.icon-bar,
@@ -5274,10 +5274,10 @@ nav ul>li>a {
 	margin-left: -15px;
 	margin-right: -15px;
 	padding: 10px 15px;
-	border-top: 3px solid transparent;
-	border-bottom: 3px solid transparent;
-	-webkit-box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.1), 0 3px 0 rgba(255, 255, 255, 0.1);
-	box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.1), 0 3px 0 rgba(255, 255, 255, 0.1);
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 	margin-top: 8px;
 	margin-bottom: 8px
 }
@@ -5870,8 +5870,8 @@ fieldset[disabled] nav .btn-link:focus {
 	text-decoration: none;
 	color: #337ab7;
 	background-color: #fff;
-	border: 3px solid #ddd;
-	margin-left: -3px
+	border: 1px solid #ddd;
+	margin-left: -1px
 }
 
 .pagination>li:first-child>a,
@@ -5983,7 +5983,7 @@ fieldset[disabled] nav .btn-link:focus {
 	display: inline-block;
 	padding: 5px 14px;
 	background-color: #fff;
-	border: 3px solid #ddd;
+	border: 1px solid #ddd;
 	border-radius: 15px
 }
 
@@ -6031,7 +6031,7 @@ fieldset[disabled] nav .btn-link:focus {
 
 .btn .label {
 	position: relative;
-	top: -3px
+	top: -1px
 }
 
 a.label:hover,
@@ -6116,14 +6116,14 @@ a.label:focus {
 
 .btn .badge {
 	position: relative;
-	top: -3px
+	top: -1px
 }
 
 .btn-xs .badge,
 .btn-group-xs>.btn .badge,
 .btn-group-xs>.btn .badge {
 	top: 0;
-	padding: 3px 5px
+	padding: 1px 5px
 }
 
 .list-group-item.active>.badge,
@@ -6165,7 +6165,7 @@ a.badge:focus {
 
 .jumbotron p {
 	margin-bottom: 15px;
-	font-size: 23px;
+	font-size: 21px;
 	font-weight: 200
 }
 
@@ -6203,7 +6203,7 @@ a.badge:focus {
 	margin-bottom: 20px;
 	line-height: 1.42857;
 	background-color: #fff;
-	border: 3px solid #ddd;
+	border: 1px solid #ddd;
 	border-radius: 4px;
 	-webkit-transition: border 0.2s ease-in-out;
 	-o-transition: border 0.2s ease-in-out;
@@ -6233,7 +6233,7 @@ a.thumbnail.active {
 .alert {
 	padding: 15px;
 	margin-bottom: 20px;
-	border: 3px solid transparent;
+	border: 1px solid transparent;
 	border-radius: 4px
 }
 
@@ -6264,7 +6264,7 @@ a.thumbnail.active {
 .alert-dismissible .close {
 	position: relative;
 	top: -2px;
-	right: -23px;
+	right: -21px;
 	color: inherit
 }
 
@@ -6348,8 +6348,8 @@ a.thumbnail.active {
 	margin-bottom: 20px;
 	background-color: #f5f5f5;
 	border-radius: 4px;
-	-webkit-box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.1);
-	box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.1)
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1)
 }
 
 .progress-bar {
@@ -6361,8 +6361,8 @@ a.thumbnail.active {
 	color: #fff;
 	text-align: center;
 	background-color: #337ab7;
-	-webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
-	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
 	-webkit-transition: width 0.6s ease;
 	-o-transition: width 0.6s ease;
 	transition: width 0.6s ease
@@ -6489,9 +6489,9 @@ a.thumbnail.active {
 	position: relative;
 	display: block;
 	padding: 10px 15px;
-	margin-bottom: -3px;
+	margin-bottom: -1px;
 	background-color: #fff;
-	border: 3px solid #ddd
+	border: 1px solid #ddd
 }
 
 .list-group-item:first-child {
@@ -6688,10 +6688,10 @@ a.list-group-item-danger.active:focus {
 .panel {
 	margin-bottom: 20px;
 	background-color: #fff;
-	border: 3px solid transparent;
+	border: 1px solid transparent;
 	border-radius: 4px;
-	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05)
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05)
 }
 
 .panel-body {
@@ -6710,7 +6710,7 @@ a.list-group-item-danger.active:focus {
 
 .panel-heading {
 	padding: 10px 15px;
-	border-bottom: 3px solid transparent;
+	border-bottom: 1px solid transparent;
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px
 }
@@ -6737,7 +6737,7 @@ a.list-group-item-danger.active:focus {
 .panel-footer {
 	padding: 10px 15px;
 	background-color: #f5f5f5;
-	border-top: 3px solid #ddd;
+	border-top: 1px solid #ddd;
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px
 }
@@ -6749,7 +6749,7 @@ a.list-group-item-danger.active:focus {
 
 .panel>.list-group .list-group-item,
 .panel>.panel-collapse>.list-group .list-group-item {
-	border-width: 3px 0;
+	border-width: 1px 0;
 	border-radius: 0
 }
 
@@ -6864,7 +6864,7 @@ a.list-group-item-danger.active:focus {
 .panel>.panel-body+.table-responsive,
 .panel>.table+.panel-body,
 .panel>.table-responsive+.panel-body {
-	border-top: 3px solid #ddd
+	border-top: 1px solid #ddd
 }
 
 .panel>.table>tbody:first-child>tr:first-child th,
@@ -6953,7 +6953,7 @@ a.list-group-item-danger.active:focus {
 
 .panel-group .panel-heading+.panel-collapse>.panel-body,
 .panel-group .panel-heading+.panel-collapse>.list-group {
-	border-top: 3px solid #ddd
+	border-top: 1px solid #ddd
 }
 
 .panel-group .panel-footer {
@@ -6961,7 +6961,7 @@ a.list-group-item-danger.active:focus {
 }
 
 .panel-group .panel-footer+.panel-collapse .panel-body {
-	border-bottom: 3px solid #ddd
+	border-bottom: 1px solid #ddd
 }
 
 .panel-default {
@@ -7137,10 +7137,10 @@ a.list-group-item-danger.active:focus {
 	padding: 19px;
 	margin-bottom: 20px;
 	background-color: #f5f5f5;
-	border: 3px solid #e3e3e3;
+	border: 1px solid #e3e3e3;
 	border-radius: 4px;
-	-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.05)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05)
 }
 
 .well blockquote {
@@ -7160,11 +7160,11 @@ a.list-group-item-danger.active:focus {
 
 .close {
 	float: right;
-	font-size: 23px;
+	font-size: 21px;
 	font-weight: bold;
 	line-height: 1;
 	color: #000;
-	text-shadow: 0 3px 0 #fff;
+	text-shadow: 0 1px 0 #fff;
 	opacity: 0.2;
 	filter: alpha(opacity=20)
 }
@@ -7235,8 +7235,8 @@ button.close {
 .modal-content {
 	position: relative;
 	background-color: #fff;
-	border: 3px solid #999;
-	border: 3px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 6px;
 	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -7266,7 +7266,7 @@ button.close {
 
 .modal-header {
 	padding: 15px;
-	border-bottom: 3px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 	min-height: 16.42857px
 }
 
@@ -7287,7 +7287,7 @@ button.close {
 .modal-footer {
 	padding: 15px;
 	text-align: right;
-	border-top: 3px solid #e5e5e5
+	border-top: 1px solid #e5e5e5
 }
 
 .modal-footer:before,
@@ -7306,7 +7306,7 @@ button.close {
 }
 
 .modal-footer .btn-group .btn+.btn {
-	margin-left: -3px
+	margin-left: -1px
 }
 
 .modal-footer .btn-block+.btn-block {
@@ -7467,7 +7467,7 @@ button.close {
 	z-index: 1060;
 	display: none;
 	max-width: 276px;
-	padding: 3px;
+	padding: 1px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -7475,8 +7475,8 @@ button.close {
 	text-align: left;
 	background-color: #fff;
 	background-clip: padding-box;
-	border: 3px solid #ccc;
-	border: 3px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 6px;
 	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -7504,7 +7504,7 @@ button.close {
 	padding: 8px 14px;
 	font-size: 14px;
 	background-color: #f7f7f7;
-	border-bottom: 3px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
 	border-radius: 5px 5px 0 0
 }
 
@@ -7523,7 +7523,7 @@ button.close {
 }
 
 .popover>.arrow {
-	border-width: 13px
+	border-width: 11px
 }
 
 .popover>.arrow:after {
@@ -7533,16 +7533,16 @@ button.close {
 
 .popover.top>.arrow {
 	left: 50%;
-	margin-left: -13px;
+	margin-left: -11px;
 	border-bottom-width: 0;
 	border-top-color: #999;
 	border-top-color: rgba(0, 0, 0, 0.25);
-	bottom: -13px
+	bottom: -11px
 }
 
 .popover.top>.arrow:after {
 	content: " ";
-	bottom: 3px;
+	bottom: 1px;
 	margin-left: -10px;
 	border-bottom-width: 0;
 	border-top-color: #fff
@@ -7550,8 +7550,8 @@ button.close {
 
 .popover.right>.arrow {
 	top: 50%;
-	left: -13px;
-	margin-top: -13px;
+	left: -11px;
+	margin-top: -11px;
 	border-left-width: 0;
 	border-right-color: #999;
 	border-right-color: rgba(0, 0, 0, 0.25)
@@ -7559,7 +7559,7 @@ button.close {
 
 .popover.right>.arrow:after {
 	content: " ";
-	left: 3px;
+	left: 1px;
 	bottom: -10px;
 	border-left-width: 0;
 	border-right-color: #fff
@@ -7567,16 +7567,16 @@ button.close {
 
 .popover.bottom>.arrow {
 	left: 50%;
-	margin-left: -13px;
+	margin-left: -11px;
 	border-top-width: 0;
 	border-bottom-color: #999;
 	border-bottom-color: rgba(0, 0, 0, 0.25);
-	top: -13px
+	top: -11px
 }
 
 .popover.bottom>.arrow:after {
 	content: " ";
-	top: 3px;
+	top: 1px;
 	margin-left: -10px;
 	border-top-width: 0;
 	border-bottom-color: #fff
@@ -7584,8 +7584,8 @@ button.close {
 
 .popover.left>.arrow {
 	top: 50%;
-	right: -13px;
-	margin-top: -13px;
+	right: -11px;
+	margin-top: -11px;
 	border-right-width: 0;
 	border-left-color: #999;
 	border-left-color: rgba(0, 0, 0, 0.25)
@@ -7593,7 +7593,7 @@ button.close {
 
 .popover.left>.arrow:after {
 	content: " ";
-	right: 3px;
+	right: 1px;
 	border-right-width: 0;
 	border-left-color: #fff;
 	bottom: -10px
@@ -7709,7 +7709,7 @@ button.close {
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.6)
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
 }
 
 .carousel-control.left {
@@ -7794,9 +7794,9 @@ button.close {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
-	margin: 3px;
+	margin: 1px;
 	text-indent: -999px;
-	border: 3px solid #fff;
+	border: 1px solid #fff;
 	border-radius: 10px;
 	cursor: pointer;
 	background-color: #000 \9;
@@ -7820,7 +7820,7 @@ button.close {
 	padding-bottom: 20px;
 	color: #fff;
 	text-align: center;
-	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.6)
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
 }
 
 .carousel-caption .btn {
@@ -7976,7 +7976,7 @@ button.close {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.visible-sm {
 		display: block !important
 	}
@@ -7992,19 +7992,19 @@ button.close {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.visible-sm-block {
 		display: block !important
 	}
 }
 
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.visible-sm-inline {
 		display: inline !important
 	}
 }
 
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.visible-sm-inline-block {
 		display: inline-block !important
 	}
@@ -8084,7 +8084,7 @@ button.close {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.hidden-sm {
 		display: none !important
 	}
@@ -8196,15 +8196,9 @@ header h1 {
 header h2 {
 	font-size: 77px;
     color: white;
-    text-shadow:
-        -3px -3px 0 #000,
-        0   -3px 0 #000,
-        3px -3px 0 #000,
-        3px  0   0 #000,
-        3px  3px 0 #000,
-        0    3px 0 #000,
-        -3px  3px 0 #000,
-        -3px  0   0 #000;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 	/* background: #fff; */
 	/* background: rgba(255, 255, 255, 0.9) */
 }
@@ -8218,7 +8212,7 @@ header h2 {
 	}
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
 	header h1 {
 		font-size: 105px
 	}
@@ -8283,7 +8277,7 @@ main h2 {
 	}
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
 	main hr {
 		margin: 40px 0
 	}
