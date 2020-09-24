@@ -8195,8 +8195,8 @@ header h1 {
 
 header h2 {
 	font-size: 77px;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.9)
+	/* background: #fff; */
+	/* background: rgba(255, 255, 255, 0.9) */
 }
 
 @media (max-width: 1200px) {
