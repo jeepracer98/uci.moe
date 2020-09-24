@@ -8196,9 +8196,11 @@ header h1 {
 header h2 {
 	font-size: 77px;
     color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px  1px 0 #000,
+        1px  1px 0 #000;
 	/* background: #fff; */
 	/* background: rgba(255, 255, 255, 0.9) */
 }
