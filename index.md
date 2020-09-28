@@ -1,5 +1,6 @@
 ---
 title: UCI ACC
+description: The Anime Community Club is a club at UCI that focuses on the community surrounding anime, including manga, light novels, games, and much much more.
 ---
 <!--
 Notes:
