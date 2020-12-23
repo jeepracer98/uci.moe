@@ -1,7 +1,7 @@
 /*! Based on normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 .col-lg-12 p {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 html {
@@ -8175,7 +8175,7 @@ body {
 }
 
 footer {
-	margin: 50px 0
+	margin: 50px 0 0;
 }
 
 @media (max-width: 768px) {
