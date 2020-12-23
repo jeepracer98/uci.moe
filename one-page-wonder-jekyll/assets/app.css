@@ -1587,8 +1587,10 @@ h6 .small,
 h1,
 .h1 {
 	font-size: 36px;
-	padding: 0.8em;
+	padding: 0.2em;
 	border: 1px;
+	border-style: inset;
+	border-color: #000000;
 }
 
 h2,
@@ -1618,7 +1620,7 @@ h6,
 
 p {
 	margin: 0 0 10px;
-	border: 1px;
+	text-size: 16px;
 }
 
 .lead {
