@@ -11,8 +11,7 @@ Notes:
     * The icons are 512x512 ripped from fontawesome (I put a thing in the footer to make sure we're good on copyright) Then I put it in Photoshop and did a 8px stroke and shrunk most of them to 94% so that the stroke just fit within the image
 -->
 <a name="about"></a>
-# About {.body-header}
-{.body-body}
+# About
 The Anime Community Club at UCI is a club regarding the _community_ around anime.
 <a name="events"></a>
 # Events
