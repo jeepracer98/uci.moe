@@ -1,35 +1,90 @@
----
-title: UCI ACC
-description: The Anime Community Club is a club at UCI that focuses on the community surrounding anime, including manga, light novels, games, and much much more.
----
-<!--
-Notes:
-    * color for navbar is under .navbar-inverse in one-page-wonder-jekyll/assets/app.css
-    * to edit or add to the section names in the navbar, they're under where it says "div id='menu'" in _layouts/default.html
-    * For editing social links and club image, check under "div class='headline'".
-    * To edit the title, change it in _config.yml, the title variable in this file isn't used unless that one is missing.
-    * The icons are 512x512 ripped from fontawesome (I put a thing in the footer to make sure we're good on copyright) Then I put it in Photoshop and did a 8px stroke and shrunk most of them to 94% so that the stroke just fit within the image
-    
-    * css file changes at lines 1588(ish) for h1 and 1620(ish) for p
--->
-<div class="about-section">
-    <a name="about"></a>
-    <h1>About</h1>
-    <p>
-        The Anime Community Club at UCI is a club regarding the _community_ around anime.
-    </p>
-</div>
-<div class="history-section">
-    <a name="history"></a>
-    <h1>History</h1>
-    <p>
-        All events for the next quarter will be online due to campus being closed.
-    </p>
-</div>
-<div class="contact-section">
-    <a name="contact"></a>
-    <h1>Contact</h1>
-    <p>
-        Contact info is provided at the top of the page.
-    </p>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='description' content='The Anime Community Club is a club at UCI that focuses on the community surrounding anime, including manga, light novels, games, and much much more.'>
+        <title>Anime @ UCI</title>
+        <link href='/one-page-wonder-jekyll/assets/app.css' rel='stylesheet' type='text/css'>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+    </head>
+    <body>
+        <nav role='navigation'>
+            <div class='container'>
+                <div class='navbar-header'>
+                    <button type='button' data-toggle='collapse' data-target='#menu'>
+                        <span class='sr-only'>Toggle navigation</span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
+                    <a class='navbar-brand' href='#'>Anime @ UCI</a>
+                </div>
+                <div id='menu'>
+                    <ul>
+                        <li>
+                            <a href='#about'>About</a>
+                        </li>
+                        <li>
+                            <a href='#history'>History</a>
+                        </li>
+                        <li>
+                            <a href='#contact'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class='headline'>
+                <div class='container'>
+                    <img src="/assets/ACC2020Logo.png" width=25%></img></br>
+                    <h2>Anime Community Club @ UCI</h2>
+                    <a href="https://discord.gg/xQkGFSw" target="_blank"><img src="/assets/discord-border.png" alt="Discord Link" width=64px></img></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a href="mailto:animecc.uci@gmail.com" target="_blank"><img src="/assets/mail-border.png" alt="Mail Link" width=64px></img></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a href="https://www.facebook.com/groups/animeuci" target="_blank"><img src="/assets/facebook-border.png" alt="Facebook Link" width=64px></img></a>
+                    <!-- @animeuci : twitter | | (one of these has AnimeUCI username, but old url) animecc.uci && anime_community_club_uci : instagram -->
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <main>
+                <div class="section">
+                    <a name="about"></a>
+                    <h1>About</h1>
+                    <p>
+                        The Anime Community Club at UCI is a club regarding the _community_ around anime.
+                    </p>
+                </div>
+                <div class="section">
+                    <a name="history"></a>
+                    <h1>History</h1>
+                    <p>
+                        All events for the next quarter will be online due to campus being closed.
+                    </p>
+                </div>
+                <div class="section">
+                    <a name="contact"></a>
+                    <h1>Contact</h1>
+                    <p>
+                        Contact info is provided at the top of the page.
+                    </p>
+                </div>
+            </main>
+            <footer>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                        <p>
+                            ※ Icons downloaded from Font Awesome and rasterized. <a href="https://github.com/mushishi78/one-page-wonder-jekyll">https://fontawesome.com/license</a></br>
+                            ※ The page theme is more or less <a href="https://github.com/mushishi78/one-page-wonder-jekyll">mushishi78/one-page-wonder-jekyll</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src='/one-page-wonder-jekyll/assets/app.js'></script>
+    </body>
+</html>

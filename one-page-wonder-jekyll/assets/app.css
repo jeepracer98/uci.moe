@@ -4,6 +4,10 @@
 	font-size: 12px;
 }
 
+.section {
+	box-shadow: 0px 0px 5px 0px #000000;
+}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -1593,7 +1597,7 @@ h1,
 	font-size: 36px;
 	padding: 0.2em;
 	border: 1px;
-	border-style: inset;
+	border-style: solid;
 	border-color: #000000;
 }
 
