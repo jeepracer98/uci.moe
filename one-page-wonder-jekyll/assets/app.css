@@ -1,5 +1,9 @@
 /*! Based on normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+.col-lg-12 p {
+	font-size: 10px;
+}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -8333,8 +8337,4 @@ main h2 {
 		margin-bottom: 10px;
 		margin-left: 0
 	}
-}
-
-.col-lg-12 {
-	font-size: 10px;
 }
