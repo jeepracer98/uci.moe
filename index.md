@@ -9,6 +9,8 @@ Notes:
     * For editing social links and club image, check under "div class='headline'".
     * To edit the title, change it in _config.yml, the title variable in this file isn't used unless that one is missing.
     * The icons are 512x512 ripped from fontawesome (I put a thing in the footer to make sure we're good on copyright) Then I put it in Photoshop and did a 8px stroke and shrunk most of them to 94% so that the stroke just fit within the image
+    
+    * css file changes at lines 1588 and 1620
 -->
 <a name="about"></a>
 # About
