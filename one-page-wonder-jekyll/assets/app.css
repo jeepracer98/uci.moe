@@ -2,6 +2,27 @@
 
 .col-lg-12 p {
 	font-size: 12px;
+	color: #bbb
+}
+
+.col-lg-12 a:link {
+	color: #9ad
+}
+
+.col-lg-12 a:hover {
+	color: #79a
+}
+
+.col-lg-12 a:visited {
+	color: #9ad
+}
+
+.col-lg-12 a:active {
+	color: #9ad
+}
+
+.col-lg-12 a {
+	color: #9ad
 }
 
 .section {
