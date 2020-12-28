@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
-header img {
-	width: 55%;
-	float: right;
-	padding-right: 2%;
-}
 
 .wholepage {
 	background-color: rgba(37, 87, 130, 0.7);
