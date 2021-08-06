@@ -1838,6 +1838,10 @@ ul,
 ol {
 	margin-top: 0;
 	margin-bottom: 10px
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.42857;
+	color: #333;
 }
 
 ul ul,
