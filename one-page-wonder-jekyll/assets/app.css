@@ -30,6 +30,26 @@
 	/* background-color: rgba(223, 239, 255, 0.6); */
 }
 
+.headercolumn_item {
+	background-color: #002;
+	border-radius: 10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFF;
+	width: 70%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.headercolumn_item {
+	/* Nothing */
+}
+
 .headercolumntwo {
 	width: 50%;
 	float: right;
@@ -8296,10 +8316,10 @@ header h2 {
 }
 
 header h3 {
-	font-size: 32px;
-	color: #F7EB5F;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	font-size: 28px;
+	color: #FFF;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 @media (max-width: 1200px) {
