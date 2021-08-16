@@ -8307,15 +8307,19 @@ header h1 {
 }
 
 header h2 {
-	font-size: 77px;
+	font-size: 80px;
     color: #F7EB5F;
+	/*
     -webkit-text-fill-color: #F7EB5F;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #F7EB5F;
-	font-family: "Libre Franklin", "Open Sans", Helvetica, Arial, sans-serif;
+	*/
+	font-family: "Trebuchet MS", "Libre Franklin", "Open Sans", Helvetica, Arial, sans-serif;
 	text-align: left;
 	/* background: #fff; */
 	/* background: rgba(255, 255, 255, 0.9) */
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 header h3 {
