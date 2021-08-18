@@ -1720,7 +1720,7 @@ h6,
 
 p {
 	margin: 0 0 20px;
-	/* ^ Adds more spacing after paragraphs */
+	/* ^ Adds more spacing after paragraphs (was 10px) */
 	font-size: 20px;
 }
 
