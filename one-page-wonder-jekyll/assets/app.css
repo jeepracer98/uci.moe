@@ -1546,7 +1546,7 @@ main img {
 
 .img-circle,
 main img {
-	border-radius: 50%
+	/* border-radius: 50% */
 }
 
 hr {
