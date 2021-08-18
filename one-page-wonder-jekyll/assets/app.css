@@ -1719,7 +1719,8 @@ h6,
 }
 
 p {
-	margin: 0 0 10px;
+	margin: 0 0 20px;
+	/* ^ Adds more spacing after paragraphs */
 	font-size: 20px;
 }
 
