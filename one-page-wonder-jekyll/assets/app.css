@@ -8337,6 +8337,9 @@ header h3 {
 	header h2 {
 		font-size: 63px
 	}
+	header h3 {
+		font-size: 40px
+	}
 }
 
 @media (max-width: 991px) {
@@ -8346,6 +8349,9 @@ header h3 {
 	header h2 {
 		font-size: 50px
 	}
+	header h3 {
+		font-size: 32px
+	}
 }
 
 @media (max-width: 668px) {
@@ -8354,6 +8360,9 @@ header h3 {
 	}
 	header h2 {
 		font-size: 32px
+	}
+	header h3 {
+		font-size: 21px
 	}
 }
 
@@ -8366,6 +8375,9 @@ header h3 {
 	}
 	header h2 {
 		font-size: 30px
+	}
+	header h3 {
+		font-size: 20px
 	}
 }
 
