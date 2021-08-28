@@ -8302,6 +8302,7 @@ header .headline {
 }
 
 header h1 {
+	
 	font-size: 130px;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9)
@@ -8338,7 +8339,7 @@ header h3 {
 		font-size: 63px
 	}
 	header h3 {
-		font-size: 40px
+		font-size: 24px
 	}
 }
 
@@ -8350,7 +8351,7 @@ header h3 {
 		font-size: 50px
 	}
 	header h3 {
-		font-size: 32px
+		font-size: 22px
 	}
 }
 
@@ -8362,7 +8363,11 @@ header h3 {
 		font-size: 32px
 	}
 	header h3 {
-		font-size: 21px
+		font-size: 20px
+	}
+	h4 {
+		/*Not just in header cause I did it like that above for some reason.  Fix this eventually */
+		font-size: 12px
 	}
 }
 
@@ -8377,7 +8382,7 @@ header h3 {
 		font-size: 30px
 	}
 	header h3 {
-		font-size: 20px
+		font-size: 18px
 	}
 }
 
