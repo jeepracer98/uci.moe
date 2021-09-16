@@ -8355,7 +8355,22 @@ header h3 {
 	}
 }
 
-@media (max-width: 786px) {
+@media (max-width: 668px) {
+	header h1 {
+		font-size: 70px
+	}
+	header h2 {
+		font-size: 32px
+	}
+	header h3 {
+		font-size: 20px
+	}
+	h4 {
+		/*Not just in header cause I did it like that above for some reason.  Fix this eventually */
+		font-size: 12px
+	}
+
+	/* Set the header to top & bottom instead of left & right */
 	.headercolumn {
 		width: inherit;
 		float: inherit;
@@ -8370,22 +8385,6 @@ header h3 {
 		height: 192px;
 		padding-right: auto;
 		padding-left: auto;
-	}
-}
-
-@media (max-width: 668px) {
-	header h1 {
-		font-size: 70px
-	}
-	header h2 {
-		font-size: 32px
-	}
-	header h3 {
-		font-size: 20px
-	}
-	h4 {
-		/*Not just in header cause I did it like that above for some reason.  Fix this eventually */
-		font-size: 12px
 	}
 }
 
