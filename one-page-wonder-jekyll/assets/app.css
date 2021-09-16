@@ -8355,6 +8355,24 @@ header h3 {
 	}
 }
 
+@media (max-width: 786px) {
+	.headercolumn {
+		width: inherit;
+		float: inherit;
+	}
+
+	.headercolumntwo {
+		width: inherit;
+		float: inherit;
+	}
+
+	.shokoimg {
+		height: 192px;
+		padding-right: auto;
+		padding-left: auto;
+	}
+}
+
 @media (max-width: 668px) {
 	header h1 {
 		font-size: 70px
