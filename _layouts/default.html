@@ -27,9 +27,9 @@
                     <div id='menu'>
                         <!-- Add others here -->
                         {% if page_type == "main" %}
-                            {{ main_menu }}
+                            {% include main_menu %}
                         {% else %}
-                            {{ other_menu }}
+                            {% include other_menu %}
                         {% endif %}
                     </div>
                 </div>
@@ -38,9 +38,9 @@
                 <div class='headline'>
                     <!-- Add others here -->
                     {% if page_type == "main" %}
-                        {{ main_menu }}
+                        {% include main_header %}
                     {% else %}
-                        {{ other_menu }}
+                        {% include other_header %}
                     {% endif %}
                 </div>
             </header>
@@ -49,7 +49,7 @@
                     {{ content }}
                 </main>
                 <footer>
-                    {{ footer }}
+                    {% include footer %}
                 </footer>
             </div>
             <script src='/assets/app.js'></script>
