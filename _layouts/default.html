@@ -25,103 +25,28 @@
                         <a class='navbar-brand' href='/'>Anime @ UCI</a>
                     </div>
                     <div id='menu'>
-                        {{ menu }}
+                        <!-- Add others here -->
+                        {% if page_type == "main" %}
+                            {{ main_menu }}
+                        {% else %}
+                            {{ other_menu }}
+                        {% endif %}
                     </div>
                 </div>
             </nav>
             <header>
                 <div class='headline'>
-                    <div class='container'>
-                        <div class='headerfullwidth'>
-                            <h2 style='font-weight: 700'>Anime Club @ UCI</h2>
-                            <h2 style='font-size-adjust: 0.4; font-style: italic'>(Cal Animage Epsilon)</h2>
-                            <!-- The border here -->
-                            <hr style='height: 50px; border-width: 5px; color: #F7EB5F; border-color: #F7EB5F; border-radius: 5px;' />
-                        </div>
-                        <div class='headercolumn'>
-                            <div class='headercolumn_item'>
-                                <h3 style='margin-bottom: 3%; color: #F7EB5F; font-weight: 700; font-size-adjust: 0.7;'>General Meetings</h3>
-                                <h3>Thursday @ 7:10 PM</h3>
-                                <h3>Humanities Hall 143</h3>
-                            </div>
-                            <div class='headercolumn_item'>
-                                <h3 style='margin-bottom: 3%; color: #F7EB5F; font-weight: 700; font-size-adjust: 0.7;'>Screening Squad</h3>
-                                <h3>Wednesday @ 6 PM</h3>
-                                <h3>Humanities Hall 236</h3>
-                            </div>
-                            <div class='headercolumn_disclaimer'>
-                                <h4>(Subject to change, see <a href="/discord">Discord</a> #meetings-info)</h4>
-                            </div>
-                        </div>
-                        <div class='headercolumntwo'>
-                            <img class="shokoimg" src="/assets/CAE_mascot2.png" style="height: 400px; padding-right: 2%;"></img>
-                        </div>
-                        <!--
-                            <div class='headerfullwidth'>
-                                <a href="https://discord.gg/xQkGFSw" target="_blank"><img src="/assets/discord-border.png" alt="Discord Link" width=72px></img></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                <a href="mailto:animecc.uci@gmail.com" target="_blank"><img src="/assets/mail-border.png" alt="Mail Link" width=72px></img></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                <a href="https://www.facebook.com/groups/animeuci" target="_blank"><img src="/assets/facebook-border.png" alt="Facebook Link" width=64px></img></a>
-                            </div>
-                        -->
-                        <!-- @animeuci : twitter | | (one of these has AnimeUCI username, but old url) animecc.uci && anime_community_club_uci : instagram -->
-                    </div>
+                    <!-- Add others here -->
+                    {% if page_type == "main" %}
+                        {{ main_menu }}
+                    {% else %}
+                        {{ other_menu }}
+                    {% endif %}
                 </div>
             </header>
             <div class="container">
                 <main>
-                    <div class="section">
-                        <a name="about"></a>
-                        <h1>About</h1>
-                        <p>
-                            Welcome to the Anime Club of UC Irvine!
-                        </p>
-                        <p>
-                            We are a student-run club orientated around an interest in Anime and its related mediums. We have members with similar interests in manga, manhwa, visual novels, games, and convention-going. We are also trying to build a larger community of artists, cosplayers, and even voice actors!
-                        </p>
-                        <p>
-                            Whether you might be a lurking introvert or an active attendee — a member, alumni, or visitor — we welcome all that are friendly with open arms!
-                        </p>
-                        <p>
-                            We are also known as <b>Cal Animage Epsilon (CAE)</b>, which remains as a formal and synonymous club name. Under this title, we are proud to be UCI’s anime club and a member of the <a href="https://animage.moe/">Cal Animage Network</a> since 1990.
-                        </p>
-                        <center>
-                            <img src="/assets/filler.png" style="height:200px">
-                            </img>
-                        </center>
-                        <center>
-                            <p>
-                                <b>Time and location for our meetings may vary per week!</b><br />
-                                For the latest updates and announcements, please join our <a href="https://uci.moe/discord/">Discord</a> server! (#meetings-info)
-                            </p>
-                        </center>
-                    </div>
-                    <div class="section">
-                        <a name="meetings"></a>
-                        <h1>Meetings + Screening Squad</h1>
-                        <p>
-                            All friendly members, alumni, and visitors are welcome to our meetings!
-                        </p>
-                        <p>
-                            Our club has two different meetings per week. <b>General Meetings</b> serve as our main weekly meetings for activities, workshops, short screenings, etc. We also have <b>Screening Squad</b> Meetings, which are typically more relaxed, simple, and hands-off: watch anime with others! 
-                        </p>
-                        <p>
-                            Screening Meetings are held by the <b>Anime Club Screening Squad</b> (or <b>CAE Screening Squad</b>), a subdivision of the Club. <a href="https://uci.moe/ss_discord/">Join the Screening Squad Discord here</a>.
-                        </p>
-                    </div>
-                    <div class="section">
-                        <a name="affiliates"></a>
-                        <h1>Affiliates</h1>
-                        <p>
-                            <b>ZotCon</b> (<a href="https://www.zotcon.org">Website</a>)<br />
-                            ZotCon is <b>the</b> anime-themed convention club at UCI. They’re responsible for holding annual anime-themed conventions at our campus. We strongly support their efforts!<br /><br />
-
-                            <b>CalAnime Newsletter</b> (<a href="https://calanimenewsletter.wordpress.com/">Website</a>)<br />
-                            The CalAnime Newsletter is a newsletter founded by a group of high schoolers with a passion to keep Californian anime enthusiasts up to date on anime-related content. We are proud to sponsor CalAnime Newsletter and any other passion projects alike!<br /><br />
-
-                            <b>osu! UCI</b> (<a href="http://www.osuuci.com">Website</a>)<br />
-                            Anteaters who play osu! What more can you ask for?
-                        </p>
-                    </div>
+                    {{ content }}
                 </main>
                 <footer>
                     {{ footer }}
