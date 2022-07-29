@@ -14,6 +14,13 @@ These are the files hosted on uci.moe.  Unfortunately they are a bit of a mess.
 * Just copy it from one of the other year sections and edit.
 * You'll probably need to edit the URL that Google Sheets gives you to set the custom
   switching time and stuff (which is `?start=true&loop=true&delayms=15000` as of now).
+### Redirect links:
+* Just copy an existing one and change the URL
+
+## How it's structured:
+* The base is `_layouts/default.html`, and it uses pieces from the `_includes` folder.
+* The `page_type` variable of each page is what determines the headers and stuff it
+  gets.
 
 
 ## Page Descriptions:
