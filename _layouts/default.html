@@ -26,10 +26,9 @@
                     </div>
                     <div id='menu'>
                         <!-- Add others here -->
-                        {% if page_type == "main" %}
+                        {% if page.page_type == "main" %}
                             {% include main_menu.html %}
                         {% else %}
-                            <h1>{{page_type}}</h1>
                             {% include other_menu.html %}
                         {% endif %}
                     </div>
@@ -38,7 +37,7 @@
             <header>
                 <div class='headline'>
                     <!-- Add others here -->
-                    {% if page_type == "main" %}
+                    {% if page.page_type == "main" %}
                         {% include main_header.html %}
                     {% else %}
                         {% include other_header.html %}
