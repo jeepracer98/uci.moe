@@ -29,6 +29,7 @@
                         {% if page_type == "main" %}
                             {% include main_menu.html %}
                         {% else %}
+                            <h1>{{page_type}}</h1>
                             {% include other_menu.html %}
                         {% endif %}
                     </div>
