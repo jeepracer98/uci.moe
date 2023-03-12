@@ -8447,10 +8447,7 @@ main h2 {
 		font-size: 30px
 	}
 	main img {
-		max-width: 50%
-	}
-	.section .maidImage{
-		max-width: 100%;
+		max-width: 100%
 	}
 	main img.pull-left {
 		margin-right: 10px
