@@ -1,7 +1,8 @@
+
 <div class='container'>
     <div class='headerfullwidth'>
-        <h2>Anime Club @ UCI</h2>
-        <h2 style='font-size-adjust: 0.4; font-style: italic'>(Cal Animage Epsilon)</h2>
+        <h2 class="gold-pulse">Anime Club @ UCI</h2>
+        <h2 class="gold-pulse" style='font-size-adjust: 0.4; font-style: italic'>(Cal Animage Epsilon)</h2>
         <!-- The border here -->
         <hr style='height: 50px; border-width: 5px; color: #F7EB5F; border-color: #F7EB5F; border-radius: 5px;' />
     </div>
@@ -24,3 +25,14 @@
         <img class="shokoimg" src="/assets/CAE_mascot2.png" style="height: 400px; padding-right: 2%;"></img>
     </div>
 </div>
+<style>
+    @keyframes goldPulse {
+        0%, 100% { color: #F7EB5F; text-shadow: 0 0 5px rgba(247, 235, 95, 0.5); }
+        50% { color: #FFF9C2; text-shadow: 0 0 10px rgba(255, 249, 194, 0.8); }
+    }
+    
+    .gold-pulse {
+        animation: goldPulse 3s ease-in-out infinite;
+        transition: all 0.3s ease;
+    }
+</style>
