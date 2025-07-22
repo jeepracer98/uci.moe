@@ -30,8 +30,8 @@ page_type: main
             align-items: center;
             justify-content: center;
             padding: 20px;
-            background-color: #fff;
-            border: 1px solid rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
             backdrop-filter: blur(2px);
             margin-bottom: 2px;
@@ -46,23 +46,32 @@ page_type: main
             z-index: -1;
             opacity: 0.2;
         }
-        .slide:nth-child(1)::before { background: #bae6fd; }
-        .slide:nth-child(2)::before { background: #a5f3fc; }
-        .slide:nth-child(3)::before { background: #bfdbfe; }
+        .slide-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 0;
+        }
         .slide-content {
             max-width: 800px;
-            width: 100%;
-            padding: 20px;
+            width: 90%;
+            padding: 30px;
             text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 8px;
         }
-        .short-content {
-            min-height: 0;
-            height: auto;
-            padding: 60px 20px;
+        .slide.short {
+            min-height: fit-content;
+            padding: 80px 20px;
         }
     </style>
 </head>
 <body>
+    <div class="slide-bg"></div>
+    <div class="slide-bg"></div>
+    <div class="slide-bg"></div>
     <div class="slide-container">
         <div class="slide">
             <div class="slide-content">
@@ -80,10 +89,10 @@ page_type: main
                 <p>
                     We are also known as <b>Cal Animage Epsilon (CAE)</b>, which remains as a formal and synonymous club name. Under this title, we are proud to be UCI’s anime club and a member of the <a href="https://animage.moe/">Cal Animage Network</a> since 1990.
                 </p>
-                </center>
+                <center>
                     <img src="/assets/Shoko Join Us.png" style="height:300px">
                     </img>
-                <center>
+                </center>
                     <p>
                         <b>Time and location for our meetings may vary per week!</b><br />
                         For the latest updates and announcements, please join our <a href="https://uci.moe/discord/">Discord</a> server! (#meetings-info)
