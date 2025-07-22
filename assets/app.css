@@ -1484,10 +1484,6 @@ body {
 	background-color: #255782;
 	background-image: url('/assets/mako_art.jpg');
         background-size: cover;
-    	background-position: center;
-    	background-attachment: scroll;
-    	background-repeat: no-repeat;
-    	animation: slowScroll 20s linear infinite;
 }
 
 @keyframes slowScroll {
