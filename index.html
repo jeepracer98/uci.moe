@@ -12,39 +12,38 @@ page_type: main
             padding: 0;
             box-sizing: border-box;
         }
-        
         body {
             font-family: Arial, sans-serif;
             overflow-x: hidden;
         }
-        
         .slide-container {
             position: relative;
         }
-        
         .slide {
             position: sticky;
             top: 0;
-            height: 100vh;
+            min-height: 100vh;
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(2px);
+            margin-bottom: 2px;
         }
-        
         .slide-content {
             max-width: 800px;
             width: 100%;
             padding: 20px;
             text-align: center;
         }
-        
-        /* Background colors for each slide */
-        .slide:nth-child(1) { background: #f0f9ff; }
-        .slide:nth-child(2) { background: #e0f2fe; }
-        .slide:nth-child(3) { background: #cffafe; }
+        .slide:nth-child(1) { background-color: rgba(240, 249, 255, 0.9); }
+        .slide:nth-child(2) { background-color: rgba(224, 242, 254, 0.9); }
+        .slide:nth-child(3) { background-color: rgba(207, 250, 254, 0.9); }
     </style>
 </head>
 <body>
@@ -65,9 +64,9 @@ page_type: main
                 <p>
                     We are also known as <b>Cal Animage Epsilon (CAE)</b>, which remains as a formal and synonymous club name. Under this title, we are proud to be UCI’s anime club and a member of the <a href="https://animage.moe/">Cal Animage Network</a> since 1990.
                 </p>
-                    <img src="/assets/Shoko Join Us.png" height="300px">
-                </img>
                 </center>
+                    <img src="/assets/Shoko Join Us.png" style="height:300px">
+                    </img>
                 <center>
                     <p>
                         <b>Time and location for our meetings may vary per week!</b><br />
