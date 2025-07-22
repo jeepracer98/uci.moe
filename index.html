@@ -6,94 +6,112 @@ page_type: main
 <html>
 <head>
     <title>Anime Club at UCI</title>
-        <style>
-            body {
-                margin: 0;
-                font-family: Arial;
-            }
-            slide {
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .slide-container {
+            position: relative;
+        }
+        
+        .slide {
+            position: sticky;
+            top: 0;
             height: 100vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
-            box-sizing: border-box;
-            position: relative;
-            }
-            .slide:not(:last-child) {
-                margin-bottom: 100vh;
-            }
-            .slide-content {
-                max-width: 800px;
-                text-align: center;
-            }
-        </style>
-</head>
+        }
+        
+        .slide-content {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Background colors for each slide */
+        .slide:nth-child(1) { background: #f0f9ff; }
+        .slide:nth-child(2) { background: #e0f2fe; }
+        .slide:nth-child(3) { background: #cffafe; }
+    </style>
 </head>
 <body>
-    <div class="slide">
-        <div class="slide-content">
-            <a name="about"></a>
-            <h1>About</h1>
-            <p>
-                Welcome to the Anime Club at UCI!
-            </p>
-            <p>
-                We are a student-run club at UC Irvine orientated around a common interest in Anime and its related mediums. Our members engage in an array of hobbies such as art-making, cosplay, convention-going. Our members often share interests in manga, games, music, and so much more. If you have an anime-related interest or endeavor, consider us an ally.
-            </p>
-            <p>
-                Our goal as a club is to be a home to those that can share a friendly and comfortable enjoyment of anime – and each other. Whether you may be shy or sociable, we invite you to join us!
-            </p>
-            <p>
-                We are also known as <b>Cal Animage Epsilon (CAE)</b>, which remains as a formal and synonymous club name. Under this title, we are proud to be UCI’s anime club and a member of the <a href="https://animage.moe/">Cal Animage Network</a> since 1990.
-            </p>
-                <img src="/assets/Shoko Join Us.png" height="300px">
-            </img>
-            </center>
-            <center>
+    <div class="slide-container">
+        <div class="slide">
+            <div class="slide-content">
+                <a name="about"></a>
+                <h1>About</h1>
                 <p>
-                    <b>Time and location for our meetings may vary per week!</b><br />
-                    For the latest updates and announcements, please join our <a href="https://uci.moe/discord/">Discord</a> server! (#meetings-info)
+                    Welcome to the Anime Club at UCI!
                 </p>
-            </center>
-        </div>
-    </div>
-
-    <div class="slide">
-        <div class="slide-content">
-            <a name="meetings"></a>
-            <h1>Meetings</h1>
-            <p>
-                All friendly members, alumni, and visitors are welcome to our meetings!
-            </p>
-            <p>
-                Our <b>general meetings</b> serve as our main weekly meetings for activities, short screenings, and other such gatherings. Our meeting times &amp; locations can be found on all club platforms. Meetings last approximately 90+ minutes, and members often hang out afterward.
-            </p>
-            <p>
-            We also have <b>Screening Squad meetings</b>, which are smaller and more hands-off screening-dedicated meetings hosted by a subdivision of the Club. <a href="https://uci.moe/ss_discord/">Feel free to join the Screening Squad Discord here!</a>.
-            </p>
-            <center>
-                <img src="/assets/Shoko Screening.png" style="height:300px">
+                <p>
+                    We are a student-run club at UC Irvine orientated around a common interest in Anime and its related mediums. Our members engage in an array of hobbies such as art-making, cosplay, convention-going. Our members often share interests in manga, games, music, and so much more. If you have an anime-related interest or endeavor, consider us an ally.
+                </p>
+                <p>
+                    Our goal as a club is to be a home to those that can share a friendly and comfortable enjoyment of anime – and each other. Whether you may be shy or sociable, we invite you to join us!
+                </p>
+                <p>
+                    We are also known as <b>Cal Animage Epsilon (CAE)</b>, which remains as a formal and synonymous club name. Under this title, we are proud to be UCI’s anime club and a member of the <a href="https://animage.moe/">Cal Animage Network</a> since 1990.
+                </p>
+                    <img src="/assets/Shoko Join Us.png" height="300px">
                 </img>
-            </center>
-            <p>
-            Check out our <b>outings server</b>, our Discord dedicated to organized outside club events and meet-ups! <a href="https://discord.gg/kthPr4UxGs">See what's happening in our Outings Discord here!</a>.
-            </p>
+                </center>
+                <center>
+                    <p>
+                        <b>Time and location for our meetings may vary per week!</b><br />
+                        For the latest updates and announcements, please join our <a href="https://uci.moe/discord/">Discord</a> server! (#meetings-info)
+                    </p>
+                </center>
+            </div>
         </div>
-    </div>
-
-    <div class="slide">
-        <div class="slide-content">
-            <a name="affiliates"></a>
-            <h1>Affiliates</h1>
-            <p>
-                <b>ZotCon</b> (<a href="https://linktr.ee/zotcon">LinkTree</a>)<br />
-                ZotCon is the anime-themed convention club of UCI. They’re responsible for holding annual anime-themed conventions on campus, which brings in hundreds of guests every year. We strongly support their efforts!<br /><br />
-        
-                <b>CalAnime Newsletter</b> (<a href="https://issuu.com/calanime">Website</a>)<br />
-                The CalAnime Newsletter is a newsletter founded by a group of high schoolers with a passion to keep Californian anime enthusiasts up to date on anime-related content. We are proud to sponsor CalAnime Newsletter and any other passion projects alike!<br /><br />
-            </p>
+    
+        <div class="slide">
+            <div class="slide-content">
+                <a name="meetings"></a>
+                <h1>Meetings</h1>
+                <p>
+                    All friendly members, alumni, and visitors are welcome to our meetings!
+                </p>
+                <p>
+                    Our <b>general meetings</b> serve as our main weekly meetings for activities, short screenings, and other such gatherings. Our meeting times &amp; locations can be found on all club platforms. Meetings last approximately 90+ minutes, and members often hang out afterward.
+                </p>
+                <p>
+                We also have <b>Screening Squad meetings</b>, which are smaller and more hands-off screening-dedicated meetings hosted by a subdivision of the Club. <a href="https://uci.moe/ss_discord/">Feel free to join the Screening Squad Discord here!</a>.
+                </p>
+                <center>
+                    <img src="/assets/Shoko Screening.png" style="height:300px">
+                    </img>
+                </center>
+                <p>
+                Check out our <b>outings server</b>, our Discord dedicated to organized outside club events and meet-ups! <a href="https://discord.gg/kthPr4UxGs">See what's happening in our Outings Discord here!</a>.
+                </p>
+            </div>
+        </div>
+    
+        <div class="slide">
+            <div class="slide-content">
+                <a name="affiliates"></a>
+                <h1>Affiliates</h1>
+                <p>
+                    <b>ZotCon</b> (<a href="https://linktr.ee/zotcon">LinkTree</a>)<br />
+                    ZotCon is the anime-themed convention club of UCI. They’re responsible for holding annual anime-themed conventions on campus, which brings in hundreds of guests every year. We strongly support their efforts!<br /><br />
+            
+                    <b>CalAnime Newsletter</b> (<a href="https://issuu.com/calanime">Website</a>)<br />
+                    The CalAnime Newsletter is a newsletter founded by a group of high schoolers with a passion to keep Californian anime enthusiasts up to date on anime-related content. We are proud to sponsor CalAnime Newsletter and any other passion projects alike!<br /><br />
+                </p>
+            </div>
         </div>
     </div>
 </body>
