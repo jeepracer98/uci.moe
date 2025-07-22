@@ -1484,6 +1484,8 @@ body {
 	background-color: #255782;
 	background-image: url('/assets/mako_art.jpg');
 	background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
 }
 
 input,
