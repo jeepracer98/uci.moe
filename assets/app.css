@@ -1484,15 +1484,11 @@ body {
 	background-color: #255782;
 	background-image: url('/assets/mako_art.jpg');
         background-size: cover;
-	background-position: center;
-    	background-attachment: scroll;
-    	background-repeat: no-repeat;
-    	height: 200vh;
 }
 
 @keyframes scrollParallax {
-    from { background-position-y: 0; }
-    to { background-position-y: 100%; }
+    0% { background-position-y: 0; }
+    100% { background-position-y: 100%; }
 }
 
 body {
