@@ -18,9 +18,6 @@ header_title: Timeline
             font-family: Arial, sans-serif;
             overflow-x: hidden;
         }
-        .timeline-container {
-            padding: 25px 0;
-        }
         .section {
             width: 100%;
             padding: 60px 20px;
@@ -69,9 +66,43 @@ header_title: Timeline
             height: 100%;
             border: none;
         }
+        @media (min-width: 769px) {
+            .section {
+                opacity: 0;
+                transform: translateX(100%);
+                transition: all 0.8s ease-out;
+                padding: 60px 20px;
+            }
+            .section:nth-child(even) {
+                transform: translateX(-100%);
+            }
+            .section.show {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
         @media (max-width: 768px) {
             .section {
-                padding: 40px 15px;
+                padding: 30px 15px;
+            }
+            .section h1 {
+                font-size: 1.5rem;
+                margin-bottom: 15px;
+            }
+            .section p {
+                font-size: 0.95rem;
+                margin-bottom: 12px;
+            }
+            center p {
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .section {
+                padding: 25px 12px;
+            }
+            .section h1 {
+                font-size: 1.3rem;
             }
         }
     </style>
@@ -528,6 +559,7 @@ header_title: Timeline
         </div>
     </div>
 <script>
+    if (window.innerWidth > 768) {
         const sections = document.querySelectorAll('.section');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -541,6 +573,12 @@ header_title: Timeline
         sections.forEach(section => {
             observer.observe(section);
         });
+    } else {
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '1';
+            section.style.transform = 'none';
+        });
+    }
     </script>
 </body>
 </html>
