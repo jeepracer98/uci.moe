@@ -20,7 +20,7 @@ page_type: main
             position: relative;
         }
         .slide:first-child {
-        padding-top: 40px;
+            padding-top: 40px;
         }
         .slide {
             position: sticky;
@@ -59,8 +59,34 @@ page_type: main
             text-align: center;
         }
         .slide.short {
-            min-height: 50vh;
+            min-height: auto;
             padding: 20px;
+            height: auto;
+            position: relative;
+        }
+        @media (max-width: 768px) {
+            .slide {
+                min-height: auto;
+                height: auto;
+                position: relative;
+                padding: 30px 15px;
+            }
+            .slide:first-child {
+                padding-top: 30px;
+            }
+            .slide-content {
+                width: 95%;
+                padding: 15px;
+            }
+            .slide img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        @media (hover: none) {
+            .slide {
+                position: relative;
+            }
         }
     </style>
 </head>
