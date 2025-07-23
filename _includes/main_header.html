@@ -36,3 +36,27 @@
         transition: all 0.3s ease;
     }
 </style>
+<script>
+  const SHEET_ID = '1Uf4NMxT5l8Qz81x4eK7IMcvoinzii4FwLX0XH01U_eo';
+  const SHEET_NAME = 'Sheet1';
+  async function updateMeetingInfo() {
+    try {
+      const response = await fetch(`https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`);
+      const data = await response.json();
+      const generalMeeting = data.find(item => item.meeting_type === 'general');
+      const screeningMeeting = data.find(item => item.meeting_type === 'screening');
+      if (generalMeeting) {
+        document.getElementById('general-meeting-time').textContent = generalMeeting.time;
+        document.getElementById('general-meeting-location').textContent = generalMeeting.location;
+      }
+      if (screeningMeeting) {
+        document.getElementById('screening-meeting-time').textContent = screeningMeeting.time;
+        document.getElementById('screening-meeting-location').textContent = screeningMeeting.location;
+      }
+    } catch (error) {
+      console.error('Error loading meeting data:', error);
+    }
+  }
+  document.addEventListener('DOMContentLoaded', updateMeetingInfo);
+  setInterval(updateMeetingInfo, 30000);
+</script>
