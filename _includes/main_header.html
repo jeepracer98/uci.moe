@@ -38,45 +38,49 @@
 </style>
 
 <script>
-    async function fetchMeetingTimes() {
+async function fetchMeetingTimes() {
     try {
-        const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRoJv2jOwAsTCFKhGp2Uut9zgrucw7yqF6Z62aCuSOJ8SWxDq_d-Pb6kxMmkvG8nIYyVcsLL8STDN-S/pubhtml'
+        // Use 'pub?output=csv' instead of 'pubhtml' for cleaner data
+        const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRoJv2jOwAsTCFKhGp2Uut9zgrucw7yqF6Z62aCuSOJ8SWxDq_d-Pb6kxMmkvG8nIYyVcsLL8STDN-S/pub?output=csv';
         const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(sheetUrl)}`);
+        if (!response.ok) throw new Error('Network response was not ok');
         const data = await response.json();
         const csvData = data.contents;
         const rows = csvData.split('\n').slice(1);
         const meetings = {
-            general: { time: 'To be updated!', location: '' },
-            screening: { time: 'To be updated!', location: '' }
+            general: { time: 'To be updated', location: '' },
+            screening: { time: 'To be updated', location: '' }
         };
         rows.reverse().forEach(row => {
-            const [timestamp, meetingType, day, time, location] = row.split(',');
+            const cells = row.split(',');
+            if (cells.length < 5) return;
+            const [timestamp, meetingType, day, time, location] = cells;
             if (meetingType && (meetingType.includes('General') || meetingType.includes('Both'))) {
                 if (!meetings.general.updated && day && time) {
                     meetings.general.time = `${day} ${time}`;
-                    meetings.general.location = location || '';
+                    meetings.general.location = location || meetings.general.location;
                     meetings.general.updated = true;
                 }
             }
             if (meetingType && (meetingType.includes('Screening') || meetingType.includes('Both'))) {
                 if (!meetings.screening.updated && day && time) {
                     meetings.screening.time = `${day} ${time}`;
-                    meetings.screening.location = location || 'HH 112';
+                    meetings.screening.location = location || meetings.screening.location;
                     meetings.screening.updated = true;
                 }
             }
-            document.getElementById('general-meeting-time').textContent = meetings.general.time;
-            document.getElementById('general-meeting-location').textContent = meetings.general.location;
-            document.getElementById('screening-meeting-time').textContent = meetings.screening.time;
-            document.getElementById('screening-meeting-location').textContent = meetings.screening.location;
-        
-        } catch (error) {
-            console.error('Error loading meeting times:', error);
-            document.getElementById('general-meeting-time').textContent = 'To be updated!';
-            document.getElementById('general-meeting-location').textContent = '';
-            document.getElementById('screening-meeting-time').textContent = 'To be updated!';
-            document.getElementById('screening-meeting-location').textContent = '';
         });
+        document.getElementById('general-meeting-time').textContent = meetings.general.time;
+        document.getElementById('general-meeting-location').textContent = meetings.general.location;
+        document.getElementById('screening-meeting-time').textContent = meetings.screening.time;
+        document.getElementById('screening-meeting-location').textContent = meetings.screening.location;
+        
+    } catch (error) {
+        console.error('Error loading meeting times:', error);
+        document.getElementById('general-meeting-time').textContent = 'Error loading time';
+        document.getElementById('screening-meeting-time').textContent = 'Error loading time';
+    }
+}
 document.addEventListener('DOMContentLoaded', fetchMeetingTimes);
-setInterval(fetchMeetingTimes, 10000);
+setInterval(fetchMeetingTimes, 30000);
 </script>
